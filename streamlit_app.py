@@ -2,6 +2,8 @@ import streamlit as st
 
 st.title('My Mom\'s New Healthy Diner')
 
-st.title('Breakfast Menu')
+st.header('Breakfast Menu')
 
-st.write('Omega 3 & Blueberry Oatmeal \n Kale, Spinach & Rocket Smoothie \n Hard-Boiled Free_range Egg')
+words= ['Omega 3 & Blueberry Oatmeal', 'Kale, Spinach & Rocket Smoothie', 'Hard-Boiled Free_range Egg']
+for word in words:
+  st.write(word)
