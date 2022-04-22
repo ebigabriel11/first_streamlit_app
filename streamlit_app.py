@@ -2,8 +2,10 @@ import streamlit as st
 
 st.title('My Mom\'s New Healthy Diner')
 
-st.header('Breakfast Menu')
+st.header(''Breakfast Favorites'')
 
-words= ['Omega 3 & Blueberry Oatmeal', 'Kale, Spinach & Rocket Smoothie', 'Hard-Boiled Free_range Egg']
-for word in words:
-  st.write(word)
+breakfast= ['🥣 Omega 3 & Blueberry Oatmeal', '🥗 Kale, Spinach & Rocket Smoothie', '🐔 Hard-Boiled Free_range Egg','🥑🍞 Avocado Toast']
+for meal in breakfast:
+  st.text(meal)
+
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
